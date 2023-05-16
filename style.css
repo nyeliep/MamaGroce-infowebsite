@@ -1,4 +1,5 @@
 
+
 #brijo{
     width: 15%;
     border-radius: 100%;
@@ -35,3 +36,57 @@
       margin-right: 50px;
     }
 }
+
+.footer{
+    padding:10px;
+    background-color:hsl(151, 58%, 30%);
+    color:#ffffff;
+    max-height:150px;
+}
+.row{
+    display: flex;
+}
+.footer{
+    display:flex;
+    /* gap: 20px; */
+    height: 100vh;
+
+}
+ul li{
+    list-style: none;
+    color:hwb(0 100% 0%)
+    
+    
+}
+.image{
+    /* margin-right: 8%; */
+}
+.logo{
+    margin-right: 8%;
+  
+}
+.trues{
+    color: aqua;
+}
+@media screen and (max-width: 800px) {
+        .footer{
+            max-height:600px;
+            width:90%;
+            .footer{
+                flex-direction: column;   
+    
+            }
+            .logo{
+                width: 20%;
+                height: 70px;
+            }
+            .image{
+                margin-right: 8%;
+            }
+        }
+       
+    }
+
+    
+    
+
