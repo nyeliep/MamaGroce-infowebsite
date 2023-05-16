@@ -1,0 +1,92 @@
+
+
+#brijo{
+    width: 15%;
+    border-radius: 100%;
+  }
+  /* body{
+   color: #20784D; */
+  
+  #mbog{
+    border-radius: 100%;
+    width: 15%;
+  }
+  .main{
+    display: flex;
+    gap: 22%;
+  }
+  .image{
+    display: flex;
+    gap: 15%;
+   
+  }
+  .rev{
+    display: flex;
+    gap: 15%;
+  }
+  .reviews{
+    text-align: center;
+    font-size: 60px;
+    color:#20784D; ;
+  }
+ 
+  @media screen and (max-width:743px){
+    .mai{
+      padding-right: 50px;
+      margin-right: 50px;
+    }
+}
+
+.footer{
+    padding:10px;
+    background-color:hsl(151, 58%, 30%);
+    color:#ffffff;
+    max-height:150px;
+}
+.row{
+    display: flex;
+}
+.footer{
+    display:flex;
+    /* gap: 20px; */
+    height: 100vh;
+
+}
+ul li{
+    list-style: none;
+    color:hwb(0 100% 0%)
+    
+    
+}
+.image{
+    /* margin-right: 8%; */
+}
+.logo{
+    margin-right: 8%;
+  
+}
+.trues{
+    color: aqua;
+}
+@media screen and (max-width: 800px) {
+        .footer{
+            max-height:600px;
+            width:90%;
+            .footer{
+                flex-direction: column;   
+    
+            }
+            .logo{
+                width: 20%;
+                height: 70px;
+            }
+            .image{
+                margin-right: 8%;
+            }
+        }
+       
+    }
+
+    
+    
+
