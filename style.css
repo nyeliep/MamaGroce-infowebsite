@@ -1,24 +1,5 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-/*---features---*/
-#features{
-  padding-top:50px ;
-  padding-bottom:50px ;
-}
-h4{
-  font-size: 20px;
-}
-.feature-row{
-  width:80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
 
+ feature/howitworks
 }
 .feature-col{
   flex-basis: 25%;
@@ -106,28 +87,38 @@ font-size: 20px;
   
 }
 
-
-@media only screen and (max-width: 768px) {
-  /* For screens 768px and below */
-  .feature-row {
-  flex-direction: column;
-  width: 100%;
+#brijo{
+    width: 15%;
+    border-radius: 100%;
   }
-  .feature-col {
-  flex-basis: 100%;
-  margin-bottom: 20px;
+ 
+  
+  #mbog{
+    border-radius: 100%;
+    width: 15%;
   }
-  .feature-btn {
-  margin: 50px auto 0;
+  .main{
+    display: flex;
+    gap: 22%;
   }
-  .categories {
-  flex-direction: column;
+  .image{
+    display: flex;
+    gap: 15%;
+   
   }
-  .card {
-  height: 300px;
-  margin: 30px;
+  .rev{
+    display: flex;
+    gap: 15%;
   }
-  .cat {
-  display: none;
-  } 
+  .reviews{
+    text-align: center;
+    font-size: 60px;
+    color:#20784D; ;
   }
+ 
+  @media screen and (max-width:743px){
+    .mai{
+      padding-right: 50px;
+      margin-right: 50px;
+    }
+}
